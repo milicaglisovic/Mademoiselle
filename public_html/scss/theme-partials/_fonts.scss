@@ -1,0 +1,11 @@
+
+
+// theme fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: 'Bodoni';
+  src: url('../fonts/bodoni.woff') format('woff');
+  /* Dodajte ostale varijacije fonta ako postoje */
+}
+$bodoni:'Bodoni', sans-serif;
+$lato:'Lato', sans-serif;
