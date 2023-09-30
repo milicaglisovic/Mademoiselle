@@ -24,7 +24,28 @@ $(document).ready(function(){
     });
     animation();
 
-    
+    if($('.profesional-member-slider').length>0){
+       $(".profesional-member-slider").owlCarousel({
+           
+           loop:true,
+           autoplay:true,
+           autoplayTimeout:2000,
+           
+           dotsEach: 3 ,
+           responsive:{
+               0:{
+                   
+                   items:1,
+                   margin:0
+               },
+               992:{
+                   
+                   items:1,
+                   margin:30
+               }
+           }
+       }); 
+    }
     
     
     

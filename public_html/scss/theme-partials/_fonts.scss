@@ -9,3 +9,11 @@
 }
 $bodoni:'Bodoni', sans-serif;
 $lato:'Lato', sans-serif;
+@font-face {
+    font-family: 'bodonibook';
+    src: url('fonts/bodoni_book-webfont.woff2') format('woff2'),
+         url('fonts/bodoni_book-webfont.woff') format('woff');
+    //font-weight: normal;
+    //font-style: normal;
+
+}

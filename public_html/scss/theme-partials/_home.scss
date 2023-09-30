@@ -1,0 +1,61 @@
+.home{
+    padding: 20px;
+    ;
+    background-position: center arccos ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    .home-lead-title{
+        color: #FFFFFF;
+        font-size: 3rem;
+        line-height:4rem;
+        letter-spacing: 5px;
+        text-align: center;
+        font-family: 'bodonibook';
+    }
+}
+
+
+
+
+
+
+
+@media(min-width:409px){
+    .home{
+        padding: 30px;
+        
+    }
+}
+
+
+@media(min-width:576px){
+    .home{
+        padding: 80px;
+        .home-lead-title{
+            font-size: 5rem;
+            line-height: 6rem;
+            letter-spacing: 10px;
+        }
+    }
+
+    
+}
+@media(min-width:768px){
+    .home{
+        padding: 100px 0;
+    }
+    
+}
+
+
+@media(min-width:1200px){
+    .home{
+        padding: 218px 0 100px;
+        .home-lead-title{
+            font-size: 6rem;
+            line-height: 8.4rem;
+            letter-spacing: 20px;
+        }
+    }
+    
+}

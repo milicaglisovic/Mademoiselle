@@ -1,0 +1,141 @@
+.our-services{
+    margin-bottom: 30px;
+    .our-services-title{
+        margin-top: 5rem;
+        text-transform: uppercase;
+        font-family: 'bodonibook';
+        padding-bottom: 30px;
+        font-size: 3rem;
+        letter-spacing: 5px;
+        line-height: 4.5rem;
+        text-align: left;
+    }
+
+    span.border-line{
+        display: block;
+        background-color: #ECD9D9;
+        width: 7.4rem;
+        height: 1px;
+        margin-bottom: 4.3rem;
+        margin-bottom: 4.3rem;
+    }
+    .service-content{
+
+        .col-no-gutters {
+            padding-right: 0;
+            padding-left: 0;
+            margin-bottom: 0;
+            margin-top: 0;
+            article.content-text{
+                padding: 100px 20px 0;
+                background-color: #F5F5F5;
+                h1{
+                    margin-bottom: 36px;
+                    text-transform:uppercase;
+                    font-size: 3.6rem;
+                    line-height: 4.4rem;
+                    text-align: left;
+                }
+                a.btn{
+                    border:1px solid black;
+                    padding: 13px 36px;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 1.8rem;
+                    ;
+                }
+            }
+
+        }
+        &:nth-child(even){
+            .col-no-gutters{
+                article.content-text{
+                    background-color: #ECD9D9;
+                }
+            }
+        }
+    }
+}
+@media(min-width:576px){
+    .home{
+        padding: 80px;
+        .home-lead-title{
+            font-size: 5rem;
+            line-height: 6rem;
+            letter-spacing: 10px;
+        }
+    }
+
+    .our-services{
+        .our-services-title{
+            margin-top: 7.5rem;
+        }
+        .service-content{
+            .col-no-gutters{
+                article.content-text{
+                    padding: 73px 50px 0;
+
+                }
+            }
+        }
+    }
+}
+@media(min-width:768px){
+    .home{
+        padding: 100px 0;
+    }
+    .our-services{
+        margin-bottom: 60px;
+        .service-content{
+            .col-no-gutters{
+                article.content-text{
+                    padding: 10px 20px 0;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .our-services{
+        margin-bottom: 80px;
+        .service-content{
+            .col-no-gutters{
+                article.content-text{
+                    padding: 73px 50px 0;
+                    a.btn{
+
+                        margin-bottom: 9.5rem;
+                        ;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:1200px){
+    .home{
+        padding: 218px 0 100px;
+        .home-lead-title{
+            font-size: 6rem;
+            line-height: 8.4rem;
+            letter-spacing: 20px;
+        }
+    }
+    .our-services{
+        margin-bottom: 111px;
+        .service-content{
+            .col-no-gutters{
+                article.content-text{
+                    padding: 143px 95px 0;
+                    a.btn{
+
+                        margin-bottom: 9.5rem;
+                        ;
+                    }
+                }
+            }
+        }
+    }
+}

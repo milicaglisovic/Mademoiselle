@@ -20,6 +20,7 @@ header{
     }
     .navbar-nav{
         a{
+            text-transform: uppercase;
             font-size: 1.4rem;
             line-height: 1.7rem;
             font-weight: $font-weight-normal;

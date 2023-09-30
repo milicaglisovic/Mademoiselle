@@ -7,3 +7,12 @@ $font-size-base: 1.6rem;
 // override bootstrap variables
 $grid-gutter-width:           12px;
 $gray-900:                   #1E1E1E;
+
+$grid-breakpoints: (
+  xs: 0,
+  xm:409px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) ;

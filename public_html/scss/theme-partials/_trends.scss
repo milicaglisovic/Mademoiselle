@@ -1,0 +1,60 @@
+.trends{
+    margin-bottom: 5.6rem;
+    .trends-title{
+        margin-top: 7.5rem;
+        text-transform: uppercase;
+        font-family: 'bodonibook';
+        padding-bottom: 20px;
+
+    }
+    span.border-line{
+        display: block;
+        background-color: #ECD9D9;
+        width: 7.4rem;
+        height: 1px;
+        margin-bottom: 4.3rem;
+    }
+    .trend{
+        margin-bottom: 50px;
+
+        .trend-info{
+            display: block;
+            bottom: 0px;
+            background-color: white;
+            max-width: 313px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px; /* Dodajte željenu širinu */
+            height: 100px;
+
+            .trend-info-date{
+                padding-top: 22px;
+                text-align: center;
+                font-style: italic;
+                font-size: 1.4rem;
+                letter-spacing: 1px;
+                line-height: 1.7rem;
+                margin-bottom: 0;
+            }
+            .trend-info-title{
+                padding: 17px 18px 56px;
+                font-size: 1.6rem;
+                font-family: $lato;
+                text-transform: uppercase;
+                line-height: 2.4rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media(min-width:409px){
+    
+        .trends{
+            .trend-info{
+                max-width: 313px;
+                width: 300px; 
+            }
+        }
+    
+}
+
