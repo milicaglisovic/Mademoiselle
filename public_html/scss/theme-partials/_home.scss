@@ -1,9 +1,21 @@
 .home{
     padding: 20px;
-    ;
+    position: relative;
     background-position: center arccos ;
     background-size:100%;
     background-repeat: no-repeat;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); 
+        opacity: 0.5; 
+        z-index: 1; 
+    }
+    
     .home-lead-title{
         color: #FFFFFF;
         font-size: 3rem;
@@ -11,6 +23,8 @@
         letter-spacing: 5px;
         text-align: center;
         font-family: 'bodonibook';
+        z-index:2!important;
+        position: relative;
     }
 }
 
@@ -23,7 +37,7 @@
 @media(min-width:409px){
     .home{
         padding: 30px;
-        
+
     }
 }
 
@@ -38,13 +52,13 @@
         }
     }
 
-    
+
 }
 @media(min-width:768px){
     .home{
         padding: 100px 0;
     }
-    
+
 }
 
 
@@ -57,5 +71,5 @@
             letter-spacing: 20px;
         }
     }
-    
+
 }

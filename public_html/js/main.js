@@ -31,7 +31,7 @@ $(document).ready(function(){
            autoplay:true,
            autoplayTimeout:2000,
            
-           dotsEach: 3 ,
+           dotsEach: 2 ,
            responsive:{
                0:{
                    
