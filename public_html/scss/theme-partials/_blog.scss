@@ -1,0 +1,53 @@
+.page-numbers {
+    display: flex;
+    align-items: center; /* Centrirajte vertikalno */
+    //font-family: $bodoni;
+}
+
+.page-number {
+    padding: 5px 5px;
+    margin-right: 5px;
+    font-size: 1.6rem;
+    line-break: 2.4rem;
+    cursor: pointer;
+   font-family: bodonibook;
+    transition: background-color 0.3s ease;
+    background-color: #fff; /* Bela pozadina za brojeve */
+    color: rgba(0, 0, 0, 0.5); /* Tekst sa opacityjem 0.7 */
+}
+
+.page-number.active {
+    background-color: transparent; /* Aktivni broj bez pozadine */
+    color: #000; /* Boja teksta za aktivan broj */
+     /* Bez granice za aktivan broj */
+}
+
+/* Stilizacija dugmadi "Sledeći" i "Prethodni" */
+.navigation button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: transparent; /* Bez pozadine */
+    color: rgba(0, 0, 0, 0.7); /* Tekst sa opacityjem 0.7 */
+    border: none; /* Bez granice */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Pozadina na hover efektu */
+}
+
+@media(min-width:992px){
+    .blog-lead{
+    padding-top: 250px;
+    padding-bottom: 80px;
+}
+}
+@media(min-width:1200px){
+    .blog-lead{
+    padding-top: 250px;
+    padding-bottom: 120px;
+}
+}
+
