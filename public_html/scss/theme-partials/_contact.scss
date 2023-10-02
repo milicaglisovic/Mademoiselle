@@ -1,0 +1,59 @@
+.contact-lead{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    h1{
+        font-family: bodonibook;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    .embed-responsive{
+        margin-top: 30px;
+    }
+    .form-control{
+        background-color:rgba(#253D61,0.025);
+        border: none;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    textarea.form-control{
+        height: 350px;
+        line-height: 50px;
+        resize: none;
+    }
+    .btn-send{
+        border:1px solid black;
+    }
+    .error-msg{
+        color:$danger;
+        margin-top: 5px;
+        font-size: 1.3rem;
+    }
+}
+.contact-info{
+    text-align: center;
+    padding: 63px 0;
+   margin-bottom: 5.6rem;
+    background-color: $site-color;
+    p{
+        font-size: 2.4rem;
+        font-size: 2.5rem;
+        font-weight: $font-weight-light;
+        font-family: 'Lato', sans-serif;
+    }
+}
+@media(min-width:1200px){
+    .contact-lead{
+    margin-top: 95px;
+    margin-bottom: 110px;
+    h1{
+        margin-bottom: 4rem;
+    }
+    .embed-responsive{
+        margin-top: 0px;
+    }
+    }
+}

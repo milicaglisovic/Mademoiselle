@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
 html {
   font-size: 10px;
 }
@@ -10818,6 +10819,75 @@ footer .copyright a {
   .blog-lead {
     padding-top: 250px;
     padding-bottom: 120px;
+  }
+}
+
+.contact-lead {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-lead h1 {
+  font-family: bodonibook;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.contact-lead .embed-responsive {
+  margin-top: 30px;
+}
+
+.contact-lead .form-control {
+  background-color: rgba(37, 61, 97, 0.025);
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.contact-lead textarea.form-control {
+  height: 350px;
+  line-height: 50px;
+  resize: none;
+}
+
+.contact-lead .btn-send {
+  border: 1px solid black;
+}
+
+.contact-lead .error-msg {
+  color: #dc3545;
+  margin-top: 5px;
+  font-size: 1.3rem;
+}
+
+.contact-info {
+  text-align: center;
+  padding: 63px 0;
+  margin-bottom: 5.6rem;
+  background-color: #D0B6B6;
+}
+
+.contact-info p {
+  font-size: 2.4rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .contact-lead {
+    margin-top: 95px;
+    margin-bottom: 110px;
+  }
+  .contact-lead h1 {
+    margin-bottom: 4rem;
+  }
+  .contact-lead .embed-responsive {
+    margin-top: 0px;
   }
 }
 
