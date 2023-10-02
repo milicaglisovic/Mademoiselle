@@ -11014,4 +11014,12 @@ footer .copyright a {
   font-size: 18px;
 }
 
+.back-home {
+  position: relative;
+  z-index: 3;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+}
+
 /*# sourceMappingURL=theme.css.map */
