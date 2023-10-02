@@ -96,5 +96,47 @@ $(document).ready(function () {
         // Dodajte aktivnu klasu na odgovarajuću stranicu
         $(".page-number:nth-child(" + currentPage + ")").addClass("active");
     }
+    //form validator
+    $('.contact-form').validate({
+        highlight: function (element) {
+            $(element).addClass('is-invalid').removeClass('is-valid');
+        },
+        unhighlight: function (element) {
+            $(element).addClass('is-valid').removeClass('is-invalid'); // Ispravljeno is-ivalid u is-valid
+        },
+        rules: {
+            name: {
+                required: true
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            subject: {
+                required: true
+            },
+            message: {
+                required: true
+            }
+        },
+        messages: {
+            name: {
+                required: 'The Name and Surname field is required.'
+            },
+            email: {
+                required: 'The Email field is required.'
+            },
+            subject: {
+                required: 'The Subject field is required.'
+            },
+            message: {
+                required: 'The Message field is required'
+            }
+        },
+        errorElement: 'p',
+        errorPlacement: function (error, element) {
+            error.appendTo(element.closest(".form-group").find(".error-msg"));
+        }
+    });
 });
 

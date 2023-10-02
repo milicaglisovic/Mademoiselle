@@ -1,0 +1,52 @@
+.about-content{
+    margin-top: 9.1rem;
+    h1{
+        font-size: 4.4rem;
+        line-height: 5rem;
+        font-family: 'Lato','san-serif';
+        margin-bottom: 5.1rem;
+    }
+    figure{
+        margin-bottom: 6.6rem;
+    }
+    p{
+        font-size: 2rem;
+        line-height: 2.8rem;
+        font-family: 'Lato','san-serif';
+        font-weight: $font-weight-light;
+        margin-bottom: 5rem;
+    }
+    .search-box {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 5rem;
+    }
+
+    input[type="text"] {
+        
+        flex: 1;
+        border: none;
+        padding:15px 20px;
+        font-size: 16px;
+        outline: none;
+        font-family: bodonibook;
+        font-style: italic;
+    }
+
+    button[type="submit"] {
+        background: transparent;
+        color: #333;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    button[type="submit"] i {
+        font-size: 18px;
+        
+    }
+}

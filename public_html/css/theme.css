@@ -10959,4 +10959,59 @@ footer .copyright a {
   }
 }
 
+.about-content {
+  margin-top: 9.1rem;
+}
+
+.about-content h1 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  font-family: 'Lato','san-serif';
+  margin-bottom: 5.1rem;
+}
+
+.about-content figure {
+  margin-bottom: 6.6rem;
+}
+
+.about-content p {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-family: 'Lato','san-serif';
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+
+.about-content .search-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+
+.about-content input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  outline: none;
+  font-family: bodonibook;
+  font-style: italic;
+}
+
+.about-content button[type="submit"] {
+  background: transparent;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.about-content button[type="submit"] i {
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=theme.css.map */
